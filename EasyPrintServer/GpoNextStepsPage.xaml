@@ -1,0 +1,104 @@
+﻿<UserControl x:Class="EasyPrintServer.GpoNextStepsPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ScrollViewer
+        VerticalScrollBarVisibility="Auto"
+        HorizontalScrollBarVisibility="Disabled">
+
+    <Grid>
+        <StackPanel Width="560" Margin="0,10,0,0">
+
+            <!-- Title -->
+            <TextBlock Text="Next Steps (Manual GPO Step)"
+                       FontSize="20"
+                       FontWeight="SemiBold"
+                       Foreground="#0A8A7B"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,6"/>
+
+            <!-- Subtitle -->
+            <TextBlock Text="Your printer + GPO were created successfully. Microsoft doesn’t reliably auto-populate the PowerShell Scripts tab, so we finish this one step manually (for now)."
+                       FontSize="12"
+                       Foreground="#666"
+                       TextAlignment="Center"
+                       TextWrapping="Wrap"
+                       Margin="0,0,0,14"/>
+
+            <!-- Steps card -->
+            <Border Background="White"
+                    BorderBrush="#E0E0E0"
+                    BorderThickness="1"
+                    CornerRadius="14"
+                    Padding="16"
+                    Margin="0,0,0,16">
+
+                <StackPanel>
+
+                    <TextBlock Text="Do this in Group Policy Management:"
+                               FontWeight="SemiBold"
+                               Margin="0,0,0,10"/>
+
+                    <!-- Hard-coded steps (edit these anytime) -->
+                    <TextBlock x:Name="StepsText"
+                               TextWrapping="Wrap"
+                               FontSize="13"
+                               LineHeight="18">
+                        <Run Text="1) Click the 'Open GPMC' button below"/>
+                        <LineBreak/>
+                        <Run Text="2) Find the OU you linked the GPO to"/>
+                        <LineBreak/>
+                        <Run Text="3) Right-click your GPO → Edit"/>
+                        <LineBreak/>
+                        <Run Text="4) Go to: User Configuration → Policies → Windows Settings → Scripts (Logon/Logoff)"/>
+                        <LineBreak/>
+                        <Run Text="5) Double-click Logon"/>
+                        <LineBreak/>
+                        <Run Text="6) Click the “PowerShell Scripts” tab"/>
+                        <LineBreak/>
+                        <Run Text="7) Click Add… → Browse…"/>
+                        <LineBreak/>
+                        <Run Text="8) Select: EasyPrintServer_AddPrinters.ps1"/>
+                        <LineBreak/>
+                        <Run Text="9) Leave Parameters blank, OK → Apply → OK"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="After that, on a workstation open CMD and run: gpupdate /force"/>
+                        <LineBreak/>
+                        <Run Text="Then sign out and sign back in (Logon), or reboot (Startup)."/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="NOTE: Your PowerShell script (.ps1 file) can be found here: \\YOURDOMAIN.local\sysvol\YOURDOMAIN.LOCAL\Policies\{GUID}\User\Scripts\Logon"/>
+                    </TextBlock>
+
+                </StackPanel>
+            </Border>
+
+            <!-- Buttons -->
+            <DockPanel LastChildFill="False" HorizontalAlignment="Center">
+                <Button Content="Open GPMC"
+            Width="110"
+            Margin="4"
+            Click="OpenGpmc_Click"/>
+
+                <Button Content="Open Script Folder"
+            Width="140"
+            Margin="4"
+            Click="OpenScriptFolder_Click"/>
+
+                <Button Content="Add another printer"
+            Width="150"
+            Margin="4"
+            Click="AddAnotherPrinter_Click"/>
+
+                <Button Content="Finish"
+            Width="110"
+            Margin="4"
+            Click="Finish_Click"/>
+            </DockPanel>
+
+
+        </StackPanel>
+    </Grid>
+    </ScrollViewer>
+</UserControl>

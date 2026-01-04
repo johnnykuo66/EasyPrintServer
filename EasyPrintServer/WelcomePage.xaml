@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="EasyPrintServer.WelcomePage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid>
+
+        <StackPanel VerticalAlignment="Center">
+
+            <TextBlock Text="Welcome to EasyPrintServer"
+                       FontSize="22"
+                       FontWeight="Bold"
+                       TextAlignment="Center"
+                       Margin="0,0,0,20"/>
+
+            <TextBlock Text="This wizard will guide you through setting up a Windows print server and deploying them via Group Policy. Minimal technical knowledge is required."
+                       FontSize="14"
+                       TextAlignment="Center"
+                       TextWrapping="Wrap"
+                       Margin="0,0,0,30"/>
+
+            <Button Content="Start Setup"
+                    Width="140"
+                    Height="35"
+                    HorizontalAlignment="Center"
+                    Click="StartButton_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+</UserControl>
